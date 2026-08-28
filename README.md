@@ -13,11 +13,11 @@ The robotic arm control and inverse kinematics components will be integrated at 
 - [x] Camera input
 - [x] OpenCV setup
 - [x] BGR color representation
-- [ ] HSV color segmentation
-- [ ] Binary masking
-- [ ] Contour detection
-- [ ] Image moments
-- [ ] Centroid calculation
+- [x] HSV color segmentation
+- [x] Binary masking
+- [x] Contour detection
+- [x] Image moments
+- [x] Centroid calculation
 - [ ] Pixel coordinate extraction
 - [ ] Homography transformation
 - [ ] Pallet detection
@@ -26,3 +26,9 @@ The robotic arm control and inverse kinematics components will be integrated at 
 - [ ] Real-world coordinate mapping
 - [ ] Inverse kinematics
 - [ ] Robotic arm control
+
+## Hardware Status
+
+The computer-vision component is being developed without the physical robotic arm. A laptop webcam or mobile phone camera is used for visual input and software testing.
+
+Inverse kinematics and robotic-arm control will be implemented once the physical hardware is available.
